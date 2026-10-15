@@ -14,7 +14,7 @@ import {
   Bar,
 } from "recharts";
 
-const API_BASE = "http://127.0.0.1:8000/api/market";
+const API_BASE = "https://nifty50-ai-ml.onrender.com/api/market";
 
 const formatPrice = (value) =>
   Number(value).toLocaleString("en-IN", {
